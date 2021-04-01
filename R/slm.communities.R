@@ -72,7 +72,7 @@ slm.community <-
         print
       )
 
-    res <- sys::exec_wait(cmd = "java", args = args) #调用cmd模式运行java
+    res <- sys::exec_wait(cmd = "java", args = args)
 
     if (file.exists(input)) {
       #file.remove(input)
